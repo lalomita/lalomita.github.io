@@ -1,0 +1,369 @@
+body {
+	background-image: url("../imagenes/Fondo2.jpg");
+	font-family: "Catchy Mager", "Times New Roman", Arial;
+	font-size: 35px;
+	color:#FFFFFF;
+}
+
+p{
+	text-align: justify;
+	font-size: 24px;
+	color:#FFFFFF;
+}
+
+hr{
+	border:5px solid #59B9E8;
+	border-radius: 7px
+	}
+
+table,tr,td{
+	border: 3px solid;
+	border-color: #3A4FA4;
+	background-color: #59B9E8;
+}
+/* TEXTO  TH son texto de las tablas de productos/formulario
+y TEXTOLISTA tambien para listas ol y ul*/
+.texto{
+	font-family: "Times New Roman", Arial;
+	font-size: 21px;
+	color:#FFFFFF;
+}
+.textolista{
+	font-family: "Times New Roman", Arial;
+	font-size: 24px;
+	color:#FFFFFF;
+}
+
+th{
+	border: 3px solid;
+	border-color: #FFD28E;
+	background-color: #FFA84B;
+}
+
+ul{
+	padding-right:20px;
+	padding-left:20px;
+	font-family: fuente2;
+	text-align: center;
+	font-size: 25px;
+	color:#000000;
+	list-style-type: circle;
+	list-style-position: inside;
+}
+
+ol{
+	padding-right:20px;
+	padding-left:20px;
+	font-family: fuente2;
+	text-align: center;
+	font-size: 25px;
+	color:#000000;
+	list-style-type: upper-roman;
+	list-style-position: inside;
+}
+
+.pie{
+	padding-top:25px;
+	text-align: center;
+	font-size: 30px;
+	color:#000000;
+	font-family: fuente1;	
+}
+
+.encabezado{
+	font-family: mifuente;
+	text-align: center;
+	font-size: 60px;
+	color:#000000;
+}
+
+.titulo{
+	padding-top:30px;
+	text-align: center;
+	font-size: 35px;
+	color:#000000;
+	font-family: fuente1;
+	font-weight: bold;
+	
+}
+
+.demastexto{
+	padding-right:20px;
+	padding-left:20px;
+	font-family: fuente2;
+	text-align: center;
+	font-size: 25px;
+	color:#000000;
+}
+
+.subtitulo{
+	font-family: fuente2;
+	text-align: center;
+	font-size: 35px;
+	color:#FFFFFF;
+}
+
+.tablas{
+	font-family: fuente2;
+	text-align: center;
+	font-size: 25px;
+	color:#000000;
+}
+
+.marquesina{
+	height: 400px;
+	width: 600px;
+}
+
+.botones{
+	height: 100px;
+	width: 100px;
+	border-radius: 25%;
+}
+
+.imagentablas{
+	height: 280px;
+	width: 220px;
+}
+
+.imagenes{
+	height: 396px;
+	width: 500px;
+	border: 3px solid #000000;
+}
+/*padding: px
+opacity: 100%;*/
+
+@font-face{
+	font-family: mifuente;
+	src: url(../fuentes/cCrackersBiscuit.ttf);
+}
+
+@font-face{
+	font-family: fuente1;
+	src: url(../fuentes/cCashya.ttf);
+}
+
+@font-face{
+	font-family: fuente2;
+	src: url(../fuentes/tabitha.ttf);
+}
+
+@font-face{
+	font-family: fuente3;
+	src: url(../fuentes/RAB.ttf);
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+div#top{
+	padding-top:35px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	height: 90px;
+	background-image: linear-gradient(#FFDDC7, #59B9E8);
+}
+
+div#principal{
+	margin: auto;
+	margin-top: 100px;
+	width: 100%;
+	height: 400px;
+	background-image: radial-gradient(#FFDDC7, #59B9E8);
+}
+
+div#principal2{
+	margin: auto;
+	margin-top: 100px;
+	width: 100%;
+	height: 550px;
+	background-image: radial-gradient(#FFDDC7, #59B9E8);
+}
+
+div#principal3{
+	margin: auto;
+	margin-top: 100px;
+	width: 100%;
+	height: 615px;
+	background-image: radial-gradient(#FFDDC7, #59B9E8);
+}
+
+div#principal4{
+	margin: auto;
+	margin-top: 100px;
+	width: 800px;
+	height: 615px;
+	background-image: radial-gradient(#FFDDC7, #59B9E8);
+}
+
+div#principal5{
+	padding-top:20px;
+	padding-left:20px;
+	padding-right:20px;
+	margin: auto;
+	margin-top: 100px;
+	width: 480px;
+	height: 685px;
+	background-image: radial-gradient(#FFDDC7, #59B9E8);
+}
+
+div#boton{
+	padding-top:15px;
+	margin: auto;
+	margin-top: 100px;
+	width: 100%;
+	height: 117px;
+	background-image: radial-gradient(#FFDDC7, #59B9E8);
+}
+
+div#piep{
+	margin-top: 20px;
+	width: 100%;
+	height:130px;
+	background-color:#59B9E8;
+}
+
+/*codigo de productos*/
+.caja{
+	height: 280px;
+	width: 220px;
+	border: 1px solid;
+	border-color: #3A4FA4;
+	margin: 2px;
+	color: white;
+	text-align: center;
+	display:inline-block;
+}
+
+.caja:hover{
+	box-shadow: 0 0 20px blue;
+	transform: scale(1.12);
+}
+
+.caja-texto{
+	width: 220px;
+	border: 1px solid;
+	border-color: #3A4FA4;
+	padding-top: 7px;
+	padding-bottom: 5px;
+	font-size: 25px;
+	font-family: fuente2;
+	color: black;
+	font-weight: bold;
+}
+
+.text-adicional{
+	width: 220px;
+	border: 1px solid;
+	border-color: #3A4FA4;
+	font-family: fuente3;
+	padding-top: 7px;
+	font-size: 20px;
+	color:black;
+}
+
+.linea{
+	background: #59B9E8;
+	height: 5px;
+	width: 100%;
+	display:block;
+	
+}
+
+.carrousel{
+    width: 240px;
+    margin:auto;
+    box-sizing: border-box;
+}
+
+.conteCarrousel{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.itemCarrousel{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.itemCarrouselTarjeta{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.itemCarrouselArrows{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.itemCarrouselArrows > i:hover {
+    cursor: pointer;
+}
+/*
+#itemCarrousel-1{
+    background-color: red;
+}
+
+#itemCarrousel-2{
+    background-color:blue;
+}
+
+#itemCarrousel-3{
+    background-color: green;
+}
+#itemCarrousel-4{
+    background-color: purple;
+}
+*/
+.conteCarrouselController{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.conteCarrouselController > a{
+    text-decoration: none;
+    font-size: 32px;
+    color: grey;
+}
+.itemCarrouselArrows > a > i{
+    color: black;
+}
+
+/*padding: px
+opacity: 100%;*/
+
+.menu{
+	height:180px;
+	width:392px;
+	background-color:;
+	border:1px solid #eee;
+	margin:5px;
+	color:black;
+	display:inline-block;
+	font-family:fuente2;
+	font-size: 28px;
+	margin-top:15px;
+}
+
+.menu:hover{
+	box-shadow:0 0 10px blue;
+}
